@@ -1,0 +1,13 @@
+pp = [('Leborn James', 98), ('Kevin Durant', 97), ('James Harden', 96),
+        ('Stephen Curry', 95), ('Anthony Davis', 94)]
+
+print(pp)
+
+def a(i):
+    return i[0]
+
+
+L = sorted(pp, key = a)
+
+
+print(L)

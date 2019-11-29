@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+hahahah
+=======
 pp = [('Leborn James', 98), ('Kevin Durant', 97), ('James Harden', 96), ('Stephen Curry', 95), ('Anthony Davis', 94)]
 
 
@@ -8,7 +11,8 @@ def a(i):
         return True
     else:
         return False
-L = list(filter(a, pp))
+L = list(filter(lambda a: a[1] >= 96, pp))
 
 
 print(L)
+>>>>>>> xixi

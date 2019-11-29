@@ -3,12 +3,5 @@ pp = [('Leborn James', 98), ('Kevin Durant', 97), ('James Harden', 96), ('Stephe
 
 print(pp)
 
-def a(i):
-    if i[1] >=96:
-        return True
-    else:
-        return False
-L = list(filter(a, pp))
-
-
+L = sorted(pp, key=lambda x:x[0])
 print(L)
